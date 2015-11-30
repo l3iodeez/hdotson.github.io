@@ -806,8 +806,21 @@
 			width: 100%;
 		}
 
+		body {
+			position: relative;
+			overflow: hidden;
+		}
+
 	/* Header */
 
 		#header nav {
 			padding: 0 1em;
-		} }
+		}
+		#header img {
+			width: 75px;
+		}
+
+		#sidepanelcontainer {
+			overflow: scroll;
+		}
+	}
