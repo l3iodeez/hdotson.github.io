@@ -503,12 +503,14 @@
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			color: #000;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+			color: #000;
 		}
 
 		#header nav {
@@ -610,6 +612,7 @@
 			#header nav a {
 				-webkit-tap-highlight-color: transparent;
 				-webkit-touch-callout: none;
+				color: #000;
 				border: 0;
 				display: inline-block;
 			}
@@ -620,15 +623,15 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #fff;
+					border: solid 2px #000;
 					display: block;
 					font-size: 1.75em;
-					height: 2.5em;
-					line-height: 2.5em;
+					height: 2em;
+					width: 2em;
+					line-height: 2em;
 					position: relative;
 					text-align: center;
 					top: 0;
-					width: 2.5em;
 				}
 
 				#header nav a:hover {
@@ -637,7 +640,7 @@
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: tomato;
 					}
 
 				#header nav a:active {
@@ -647,7 +650,7 @@
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: tomato;
 					}
 
 				#header nav a span {
