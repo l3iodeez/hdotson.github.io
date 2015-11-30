@@ -86,7 +86,6 @@
 		-webkit-transition: border-color 0.2s ease-in-out;
 		-ms-transition: border-color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: inherit;
 		outline: 0;
 		text-decoration: none;
@@ -498,6 +497,7 @@
 		top: -1em;
 		vertical-align: middle;
 		width: 90%;
+		padding-left: 200px;
 	}
 
 		#header h1 {
@@ -662,17 +662,17 @@
 /*Side Panel*/
 
 	#sidepanel {
-		width: 100px;
+		width: 200px;
 		height: 100%;
 		display: block;
 		position: fixed;
 		left: 0;
 		background-color: #000;
-		opacity: 0.5;
+		opacity: 0.7;
 	}
 
 	#sidepanelcontainer {
-		width: 100px;
+		width: 200px;
 		height: 100%;
 		display: block;
 		position: fixed;
@@ -687,9 +687,30 @@
 	}
 
 	#sidepanelcontainer img {
+		display: block;
 		opacity: 1;
-		width: 60px;
+		width: 180px;
 		margin: auto;
+		padding-top: 10px;
+	}
+
+	#sidepanelcontainer a {
+		display: block;
+		margin: auto;
+		text-align: center;
+		font-size: 0.65em;
+		color: #97d61d;
+		font-weight: bold;
+		outline: 0 !important;
+	}
+
+	#sidepanelcontainer p {
+		font-size: 0.75em;
+		line-height: 0.95em;
+		padding-top: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
+
 	}
 
 /* Footer */
