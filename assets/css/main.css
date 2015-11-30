@@ -509,8 +509,8 @@
 
 		#header p {
 			font-size: 1.25em;
+			font-weigh: bold;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
 			color: #000;
 		}
 
@@ -624,7 +624,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 2px orange;
+					border: solid 2px #97d61d;
 					display: block;
 					font-size: 1.75em;
 					height: 2em;
@@ -641,7 +641,7 @@
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: orange;
+						color: #97d61d;
 					}
 
 				#header nav a:active {
@@ -651,7 +651,7 @@
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: orange;
+						color: #97d61d;
 					}
 
 				#header nav a span {
