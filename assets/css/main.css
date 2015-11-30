@@ -1,5 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One");
 
 /*
 	Aerial by HTML5 UP
@@ -60,7 +61,7 @@
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Poiret One', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
 		letter-spacing: -0.025em;
@@ -623,12 +624,12 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 2px #000;
+					border: solid 2px orange;
 					display: block;
 					font-size: 1.75em;
 					height: 2em;
 					width: 2em;
-					line-height: 2em;
+					line-height: 1.85em;
 					position: relative;
 					text-align: center;
 					top: 0;
@@ -640,7 +641,7 @@
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: tomato;
+						color: orange;
 					}
 
 				#header nav a:active {
@@ -650,7 +651,7 @@
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: tomato;
+						color: orange;
 					}
 
 				#header nav a span {
