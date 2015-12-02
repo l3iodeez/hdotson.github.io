@@ -786,6 +786,12 @@
 			width: 100%;
 		}
 
+		#main {
+			-webkit-overflow-scrolling: touch;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+
 	/* Header */
 
 		#header h1 {
@@ -806,7 +812,17 @@
 
 			#header nav a:active {
 				font-size: 1em;
-			} }
+			}
+
+	/* Side Panel */
+
+		#sidepanelcontainer {
+			-webkit-overflow-scrolling: touch;
+			overflow-y: scroll;
+			overflow-x: hidden;
+		}
+
+		}
 
 /* Mobile (Portrait) */
 
@@ -833,6 +849,7 @@
 			width: 75px;
 		}
 
+	/*Side Panel */
 		#sidepanelcontainer {
 			-webkit-overflow-scrolling: touch;
 			overflow-y: scroll;
