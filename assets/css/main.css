@@ -722,7 +722,8 @@
 	}
 
 	#sidepanelcontainer p {
-		font-size: 0.75em;
+		font-family: 'Century Gothic';
+		font-size: 0.65em;
 		line-height: 0.95em;
 		padding-top: 20px;
 		padding-left: 5px;
